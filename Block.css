@@ -1,0 +1,28 @@
+
+body{
+  margin: 0px;
+}
+
+.c{
+  z-index: 1;
+  position: fixed;
+}
+
+.all{
+  position: fixed;
+  z-index: 2;
+}
+
+.flex{
+  z-index: 2;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.a{
+  z-index: 2;
+  width: 33vw;
+  height: 32.5vh;
+  background: black;
+  opacity: 0;
+  }
